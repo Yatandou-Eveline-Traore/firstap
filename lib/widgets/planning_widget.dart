@@ -26,6 +26,14 @@ class PlanningWidget extends StatelessWidget {
               color: Colors.cyan.shade500,
             ),
             child: ListTile(
+              leading: Container(
+                height: 50,
+                width: 50,
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(10),
+                  image: new DecorationImage(image: AssetImage(planning.imageUrl),
+                  fit: BoxFit.cover)),
+              ),
               title: Text(
                 planning.titre,
                 style: TextStyle(

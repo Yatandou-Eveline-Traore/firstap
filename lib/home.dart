@@ -11,12 +11,12 @@ class Home extends StatefulWidget {
 
 class _HomeState extends State<Home> {
   List<Planning> datas = [
-    Planning("Anglais", "Maison", "description english", "12/12/2024"),
-    Planning("Anglais1", "Maison1", "description english1", "13/11/2024"),
-    Planning("Anglais2", "Maison2", "description english2", "14/10/2024"),
-    Planning("Anglais3", "Maison3", "description english3", "15/09/2024"),
-    Planning("Anglais4", "Maison4", "description english4", "16/10/2024"),
-    Planning("Anglais5", "Maison5", "description english5", "17/11/2024"),
+    Planning("Anglais", "Maison", "description english", "12/12/2024", "assets/login.jpeg"),
+    Planning("Anglais1", "Maison1", "description english1", "13/11/2024", "assets/login.jpeg"),
+    Planning("Anglais2", "Maison2", "description english2", "14/10/2024", "assets/login.jpeg"),
+    Planning("Anglais3", "Maison3", "description english3", "15/09/2024", "assets/login.jpeg"),
+    Planning("Anglais4", "Maison4", "description english4", "16/10/2024", "assets/login.jpeg"),
+    Planning("Anglais5", "Maison5", "description english5", "17/11/2024", "assets/login.jpeg"),
 
   ];
   @override
