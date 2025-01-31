@@ -64,7 +64,7 @@ class _LoginState extends State<Login> {
                             content: Text("Veuillez saisir le login ou le mot de passe!!!")));
                         }
                         if(email.text=="example@gmail.com" && password.text=="A4g!s@8S"){
-                          Navigator.push(context,
+                          Navigator.pushReplacement(context,
                           MaterialPageRoute(builder: (context){
                             return const Home();
                           }));
